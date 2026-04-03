@@ -1,0 +1,10 @@
+name = input("enter name : ")
+age = int(input("enter age : "))
+height = float(input("enter height : "))
+student = int(input("student(1) or not(0) : "))
+
+print(f'name : {name}, age : {age}, height : {height}, student : {bool(student)}')
+print(age*12," months")
+print(age*365)
+print(age/7)
+print(age**2)
